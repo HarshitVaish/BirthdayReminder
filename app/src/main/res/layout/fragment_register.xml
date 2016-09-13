@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C5CAE9"
+    tools:context=".ui.login.RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/login_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:hint="username" />
+
+    <EditText
+        android:id="@+id/password_edit_text_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:hint="password"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:hint="confirm password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorAccent"
+        android:text="Register"
+        android:textColor="#ffffff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/goback_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Go back to the login page"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+
+            android:textSize="30sp" />
+
+
+    </RelativeLayout>
+</LinearLayout>
